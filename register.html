@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Sign Up</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Math Quiz</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtons" ara-controls="navbarButtons" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarButtons">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="nav-item nav-link" href="test.html">Test</span></a>
+                    <a class="nav-item nav-link" href="profile.html">Profile</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a role="button" class="btn btn-link px-3 me-2" href="login.html">
+                        Login
+                    </a>
+                    <a role="button" class="btn btn-primary me-3 active" href="register.html">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+        <br>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card-body p-5">
+                        <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+                        <form>
+
+                            <div class="form-outline mb-4">
+                                <input placeholder="First name" type="text" id="question1" class="form-control form-control-lg" />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input placeholder="Last name" type="text" id="question2" class="form-control form-control-lg" />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input placeholder="Email" type="email" id="question3" class="form-control form-control-lg" />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <select class="form-control">
+                                    <option value="1">Female</option>
+                                    <option value="2">Male</option>
+                                </select>
+                            </div>
+                            <p>Birthday:</p>
+                            <div class="form-group">
+                                <input type="date" class="form-control">
+                            </div>
+                            <br>
+                            <div class="form-outline mb-4">
+                                <input placeholder="Password" type="password" id="question4" class="form-control form-control-lg" />
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input placeholder="Confirm Password" type="password" id="question4" class="form-control form-control-lg" />
+                            </div>
+                            <button type="button" class="btn btn-primary">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              Oleksandra Denysenko KV-91
+            </div>
+          </footer>
+    </body>
+</html>
